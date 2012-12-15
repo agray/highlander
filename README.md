@@ -6,8 +6,8 @@ The Highlander - There can be only one
 Similar to WIXWriter this tool recurses a specified root directory (that of your web application)
 
 highlander generates 2 files for your aspx project:
-Pages.cs - defines a property for
-GoTo.cs - exposes getter methods for all pages in Pages.cs and then calls single private method to do the redirection to the target page.
+ - Pages.cs - defines a property for each of the aspx pages in your web application.
+ - GoTo.cs - exposes getter methods for all pages in Pages.cs and then calls a single private method to do the actual redirection to the target page.
 
 In this way, your application will have ONLY ONE Response.Redirect as GoTo is the gateway for ALL page redirections.
 
