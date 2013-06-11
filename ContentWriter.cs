@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using domaintransformations.util;
+using pheonix.util;
 
-namespace domaintransformations {
-    class ContentWriter {
+namespace pheonix {
+    public class ContentWriter {
         private StreamWriter PagesWriter;
         private StreamWriter GoToWriter;
 

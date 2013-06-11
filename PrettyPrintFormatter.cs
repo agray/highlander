@@ -2,7 +2,7 @@
 using System.IO;
 using System.Xml;
 
-namespace domaintransformations.util {
+namespace pheonix.util {
     class PrettyPrintFormatter {
         [STAThread]
         public static string format(string s) {

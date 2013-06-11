@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace domaintransformations.util {
+namespace pheonix.util {
     public class FileUtil {
 
         public static int moveFiles(string path) {

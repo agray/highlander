@@ -1,7 +1,7 @@
 ﻿using System.Text;
 
-namespace domaintransformations.util {
-    class FileContentBuilder {
+namespace pheonix.util {
+    public class FileContentBuilder {
         private static StringBuilder contentBuilder = new StringBuilder();
         private static StringBuilder configBuilder = new StringBuilder();
         private static StringBuilder productBuilder = new StringBuilder();

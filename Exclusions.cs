@@ -2,8 +2,8 @@
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace domaintransformations.util {
-    class Exclusions {
+namespace pheonix.util {
+    public class Exclusions {
         private ArrayList fileExclusionList = new ArrayList();
         private ArrayList fileExtensionExclusionList = new ArrayList();
         private ArrayList directoryExclusionList = new ArrayList();
